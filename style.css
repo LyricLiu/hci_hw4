@@ -1,0 +1,197 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+    min-width: 1022px;
+    background-color: #e2e1e1;
+}
+
+p{
+	font-size: 1em;
+    font-family: brandon-grotesque, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color:#707277;
+}
+
+header{
+	width:100%;
+	height:65px;
+	background-color: #1b1d1d;
+	position: fixed;
+	left:0;
+	top:0;
+	z-index: 9999;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+
+section{
+	width:86%;
+	height:1000px;
+	background-color: #fff;
+	position: relative;
+	left:7%;
+	margin-top: 110px;
+	border-radius: 5px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+
+#pattern-bg{
+	left:0;
+	top:-12px;
+	width:100%;
+	height:455px;
+	background: url(./img/pattern_bg.png) center;
+	position: fixed;
+}
+
+#icon{
+	position: absolute;
+	left:40px;
+	top:17px;
+	width:32px;
+	height:32px;
+	background: url(./img/icon.png) center;
+}
+
+#navi{
+	position: relative;
+	top:20px;
+	width:86%;
+	height: 41px;
+	left:8%;
+	border-bottom: 4px solid #d79395;
+}
+
+#navi div{
+	height:43px;
+	float: left;
+	text-align: center;
+	position: relative;
+}
+
+#navi span{
+	font-family: futura-pt, sans-serif;
+	font-weight: 300;
+	color:#e5e5e5;
+	font-size:18px;
+	letter-spacing:2px;
+}
+
+#navi1{
+	width:10%;
+	text-align: left;
+}
+
+#navi2{
+	width:12%;
+}
+
+#navi3{
+	width:11%;
+}
+
+#navi4{
+	width:11.5%;
+}
+
+#navi5{
+	width:12%;
+}
+
+#navi6{
+	width:9%;
+	text-align: right;
+}
+
+#navi6 span, #navi4 span{
+	position: absolute;
+	font-size:16px;
+	left:0;
+	width:100%;
+}
+
+#hifi{
+	position: absolute;
+	width:130px;
+	top:-10px;
+	left:5%;
+}
+
+.dot{
+	width:2%;
+}
+
+.dot span{
+	position: absolute;
+	top:10px;
+	width:4px;
+	height:4px;
+	border-radius: 50%;
+	background-color: #e5e5e5;
+}
+
+/****************page****************/
+
+#head_pic{
+	position: absolute;
+	left:0;
+	top:0;
+	width:770px;
+	height:447px;
+	background: url(./img/head.png) center;
+}
+
+h2{
+	font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color:#5f576e;
+}
+
+/*** h3 + line = title **/
+
+h3{
+	font-family: futura-pt, sans-serif;
+	font-size: 23px;
+	font-weight: 400;
+	color:#5f576e;
+}
+
+#line{
+	width:80px;
+	height:3px;
+	background-color: #d79395;
+	margin:8px 1px 14px 0;
+}
+
+#overview_bottom{
+	position: absolute;
+	font-family: futura-pt, sans-serif;
+	font-size: 18px;
+	width:60%;
+	left:395px;
+	top:205px;
+}
+
+#purple{
+	color:#5f576e;
+}
+
+#overview_right{
+	position: absolute;
+	width:calc(100% - 840px);
+	height:200px;
+	top:57px;
+	left:860px;
+}
+
+#overview_right p{
+	margin:8px 0;
+}
+
+
