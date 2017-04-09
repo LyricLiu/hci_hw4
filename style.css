@@ -30,7 +30,7 @@ header{
 
 section{
 	width:86%;
-	height:4000px;
+	height:5000px;
 	background-color: #fff;
 	position: relative;
 	left:7%;
@@ -158,7 +158,7 @@ h2{
     font-size: 35px;
     color:#5f576e;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 /*** h3 + line = title **/
@@ -168,6 +168,14 @@ h3{
 	font-size: 23px;
 	font-weight: 400;
 	color:#5f576e;
+}
+
+h4{
+	font-family: brandon-grotesque, sans-serif;
+	font-size: 23px;
+	font-weight: 400;
+	color:#5f576e;
+	margin:20px 0 20px 0;
 }
 
 #line{
@@ -225,7 +233,7 @@ h3{
 #survey_img{
 	position: relative;
 	width:100%;
-	margin:60px 0;
+	margin:60px 0 10px 0;
 }
 
 #observation{
@@ -248,6 +256,74 @@ h3{
 	left:0;
 	margin-top: 20px;
 }
+
+#affinity{
+	position: relative;
+	width:86%;
+	left:7%;
+	top:1020px;
+}
+
+#affinity h3, #affinity #line{
+	position: relative;
+	left:70%;
+}
+
+#affinity_img{
+	position: absolute;
+	width:60%;
+	left:0;
+	top:5px;
+}
+
+#affinity_p{
+	position: absolute;
+	width:30%;
+	right:0;
+	margin-top: 20px;
+}
+
+#task{
+	position: relative;
+	width:86%;
+	left:7%;
+	top:1520px;
+}
+
+
+#storyboard{
+	position: relative;
+	width:100%;
+	top:10px;
+}
+
+#persona{
+	position: relative;
+	width:86%;
+	left:7%;
+	top:1570px;
+}
+
+#persona img{
+	width:100%;
+}
+
+#implications{
+	position: relative;
+	width:86%;
+	left:7%;
+	top:1620px;
+}
+
+#lowfi{
+	position: relative;
+	width:86%;
+	left:7%;
+	top:1700px;
+}
+
+
+
 
 
 
