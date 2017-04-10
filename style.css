@@ -30,7 +30,7 @@ header{
 
 section{
 	width:86%;
-	height:5000px;
+	height:8000px;
 	background-color: #fff;
 	position: relative;
 	left:7%;
@@ -315,13 +315,26 @@ h4{
 	top:1620px;
 }
 
-#lowfi{
+#lowfi1{
 	position: relative;
 	width:86%;
 	left:7%;
 	top:1700px;
 }
 
+#low1p{
+	position: relative;
+	width:65%;
+	margin-top: 20px;
+	left:-20px;
+}
+
+#low1p1{
+	position: relative;
+	width:32%;
+	right:0;
+	top:-30px;
+}
 
 
 
