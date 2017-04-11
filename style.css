@@ -30,7 +30,7 @@ header{
 
 section{
 	width:86%;
-	height:8000px;
+	height:12000px;
 	background-color: #fff;
 	position: relative;
 	left:7%;
@@ -86,29 +86,33 @@ section{
 }
 
 #navi1{
-	width:10%;
+	width:9%;
 	text-align: left;
 }
 
 #navi2{
-	width:12%;
-}
-
-#navi3{
 	width:11%;
 }
 
+#navi3{
+	width:10%;
+}
+
 #navi4{
-	width:11.5%;
+	width:10.5%;
 }
 
 #navi5{
-	width:12%;
+	width:11%;
 }
 
 #navi6{
-	width:9%;
+	width:10.5%;
 	text-align: right;
+}
+
+#navi7{
+	width:12%;
 }
 
 #navi6 span, #navi4 span{
@@ -126,7 +130,7 @@ section{
 }
 
 .dot{
-	width:2%;
+	width:2.1%;
 }
 
 .dot span{
@@ -174,8 +178,7 @@ h4{
 	font-family: brandon-grotesque, sans-serif;
 	font-size: 23px;
 	font-weight: 400;
-	color:#5f576e;
-	margin:20px 0 20px 0;
+	color:#6f7680;
 }
 
 #line{
@@ -245,7 +248,7 @@ h4{
 
 #observation_img{
 	position: absolute;
-	width:56%;
+	width:560px;
 	right:0;
 	margin-top: 20px;
 }
@@ -271,7 +274,7 @@ h4{
 
 #affinity_img{
 	position: absolute;
-	width:60%;
+	width:630px;
 	left:0;
 	top:5px;
 }
@@ -355,6 +358,90 @@ h4{
 	width:86%;
 	left:7%;
 	top:1780px;
+}
+
+#low3p{
+	position: relative;
+	width:65%;
+	margin-top: 20px;
+	left:-20px;
+}
+
+#feedback{
+	position: relative;
+	width:86%;
+	left:7%;
+	top:1840px;
+}
+
+#feedbackp{
+	position: absolute;
+	width:520px;
+	margin-top: 20px;
+	right:0;
+}
+
+#feedbackw{
+	position: relative;
+	width:43%;
+	margin-top: 45px;
+	left:0;
+}
+
+#feedback2{
+	position: relative;
+	width:86%;
+	left:7%;
+	top:1900px;
+}
+
+#highfi{
+	position: relative;
+	width:86%;
+	left:7%;
+	top:1970px;
+}
+
+#highfi img{
+	position: relative;
+	width:33%;
+}
+
+
+#a{
+	position: absolute;
+	left:0;
+	top:180px;
+}
+
+#b{
+	position: absolute;
+	left:33%;
+	top:180px;
+}
+
+#c{
+	position: absolute;
+	left:66%;
+	top:180px;
+}
+
+#d{
+	position: absolute;
+	left:0;
+	top:550px;
+}
+
+#e{
+	position: absolute;
+	left:33%;
+	top:550px;
+}
+
+#f{
+	position: absolute;
+	left:66%;
+	top:550px;
 }
 
 
