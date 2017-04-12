@@ -37,6 +37,7 @@ section{
 	margin-top: 110px;
 	border-radius: 5px;
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+	overflow-x:hidden;
 }
 
 #note{
@@ -353,6 +354,20 @@ h4{
 	left:-20px;
 }
 
+#low3p1{
+	position: relative;
+	width:32%;
+	right:0;
+	top:-25px;
+}
+
+#low2p1{
+	position: relative;
+	width:32%;
+	right:0;
+	top:-25px;
+}
+
 #lowfi3{
 	position: relative;
 	width:86%;
@@ -443,6 +458,15 @@ h4{
 	left:66%;
 	top:550px;
 }
+
+#evaluation{
+	position: relative;
+	width:86%;
+	left:7%;
+	top:2050px;
+}
+
+
 
 
 
