@@ -30,7 +30,7 @@ header{
 
 section{
 	width:86%;
-	height:12000px;
+	height:9800px;
 	background-color: #fff;
 	position: relative;
 	left:7%;
@@ -84,6 +84,11 @@ section{
 	color:#e5e5e5;
 	font-size:18px;
 	letter-spacing:2px;
+}
+
+#navi span:hover{
+	color:#d79395;
+	cursor: pointer;
 }
 
 #navi1{
@@ -141,6 +146,11 @@ section{
 	height:4px;
 	border-radius: 50%;
 	background-color: #e5e5e5;
+	cursor: pointer;
+}
+
+.dot span:hover{
+	background-color: #d79395;
 }
 
 /****************page****************/
@@ -480,7 +490,19 @@ h4{
 	top:2490px;
 }
 
+#evaluation_icon{
+	width:33%;
+	position: absolute;
+	right:0;
+	cursor:pointer;
+}
 
+#evaluation_p{
+	position: absolute;
+	width:60%;
+	left:0;
+	margin-top: 20px;
+}
 
 
 
