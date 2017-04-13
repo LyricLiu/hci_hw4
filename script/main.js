@@ -75,7 +75,9 @@
  	window.location.href='#hifi_p';
  })
 
-
+ $("#icon").click(function(){
+ 	window.open('http://lyricliu.com');
+ })
 
 
 })();

@@ -60,6 +60,7 @@ section{
 	width:32px;
 	height:32px;
 	background: url(./img/icon.png) center;
+	cursor:pointer;
 }
 
 #navi{
