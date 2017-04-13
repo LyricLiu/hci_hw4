@@ -417,7 +417,7 @@ h4{
 	top:1970px;
 }
 
-#highfi img{
+.highfipic{
 	position: relative;
 	width:33%;
 }
@@ -459,12 +459,27 @@ h4{
 	top:550px;
 }
 
+#hifi_img{
+	position: absolute;
+	width:40%;
+	right:0;
+	margin-top:40px;
+}
+
+#hifi_p{
+	position: absolute;
+	width:55%;
+	left:0;
+	margin-top:20px;
+}
+
 #evaluation{
 	position: relative;
 	width:86%;
 	left:7%;
-	top:2050px;
+	top:2490px;
 }
+
 
 
 
