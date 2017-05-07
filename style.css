@@ -30,7 +30,7 @@ header{
 
 section{
 	width:86%;
-	height:9800px;
+	height:10300px;
 	background-color: #fff;
 	position: relative;
 	left:7%;
@@ -484,11 +484,24 @@ h4{
 	margin-top:20px;
 }
 
-#evaluation{
+#video{
 	position: relative;
 	width:86%;
 	left:7%;
 	top:2490px;
+}
+
+iframe{
+	position: absolute;
+	top:100px;
+	left:calc(50% - 400px);
+}
+
+#evaluation{
+	position: relative;
+	width:86%;
+	left:7%;
+	top:3200px;
 }
 
 #evaluation_icon{
